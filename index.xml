@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>httpss://zengxiaochao.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jun 2020 22:09:41 +0800</lastBuildDate>
+    
+	<atom:link href="httpss://zengxiaochao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Firstblog</title>
+      <link>httpss://zengxiaochao.github.io/test/firstblog/</link>
+      <pubDate>Sun, 28 Jun 2020 22:09:41 +0800</pubDate>
+      
+      <guid>httpss://zengxiaochao.github.io/test/firstblog/</guid>
+      <description>基于JavaEE的网上商城——零食商城 Copyright: Copyright (c) 2020
+Created on 2020-5-1
+Author:zengxiaochao666@gmail.com
+Version 2.0
+项目描述 这是大三下学期的JavaEE作业，JavaWeb，做的一个商城，实现的功能有：  浏览主页商品、查看商品详情、下单商品、查看我的订单、注册用户等功能。 管理员查看商品列表、进行销量或售价或库存进行排序，进行商品上下架。  在线配置到了我的云服务器：  用户端：http://112.124.20.82:8080/market/index.jsp 管理员端：http://112.124.20.82:8080/market/admin.jsp
+在我的云服务器有效期内可以进行演示测试。  编译环境 Java:JDK1.8
+IDE:IDEA intellij
+数据库：Mysql5.7
+应用服务器：Tomcat8.5
+部署步骤  mysql新建名为market的数据库，使用项目内存放的sql文件进行表的生成和数据的加载。 使用IDEA打开项目主路径，配置tomcat即可。 更改dao包下的Connect_Db文件中的数据库连接串，localhost为本机、更改数据库、用户名、密码等本机验证。 若有缺包，mysql5.7的jar包在我项目的web-&amp;gt;WEB-INF-&amp;gt;lib中，若还缺包爆红，导入tomcat中的lib中的jar。  目录结构描述 ├── src // 后端
+│ ├── dao //dao层
+│ ├── entity // 实体类 │ └── servlet // servlet
+├── web // 前端
+│ ├── css //css
+│ ├── js // js │ └── image // 图片资源</description>
+    </item>
+    
+  </channel>
+</rss>
