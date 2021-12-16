@@ -1,212 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	<meta name="generator" content="Hugo 0.73.0" />
-    <title>My New Hugo Site</title>
-    <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-<link rel="stylesheet" href="/assets/css/style.css" />
-<link rel="stylesheet" href="/assets/css/navbar.css" />
-
-
-<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-
-
-<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
-
-
-    <link rel="stylesheet" href="/assets/css/home.css" />
-    <link rel="stylesheet" href="/assets/css/about.css" />
-    <link rel="stylesheet" href="/assets/css/skills.css" />
-    <link rel="stylesheet" href="/assets/css/experiences.css" />
-    <link rel="stylesheet" href="/assets/css/projects.css" />
-    <link rel="stylesheet" href="/assets/css/recent-posts.css" />
-    <link rel="stylesheet" href="/assets/css/achievements.css" />
-
-    
-    
-  </head>
-  <body data-spy="scroll" data-target="#top-navbar" data-offset="50">
-    <nav class="navbar navbar-expand-lg top-navbar initial-navbar" id="top-navbar">
-  <div class="container">
-    <a class="navbar-brand" href="httpss://zengxiaochao.github.io/">
-      <img src="/assets/images/logo-inverted.png" id="logo">My New Hugo Site</a>
-    <button
-      class="navbar-toggler navbar-dark"
-      id="navbar-toggler"
-      ,type="button"
-      data-toggle="collapse"
-      data-target="#top-nav-items"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
+<head>
+    <meta charset="UTF-8">
+    <title>a的美化</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
         
-        <div class="dropdown-divider" id="top-navbar-divider"></div>
-        <li class="nav-item">
-          <a class="nav-link" id="blog-link" href="/posts">Blog</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<div class="container-fluid home" id="home">
-  <div
-    class="background container-fluid"
-    style="background-image: url('/assets/images/default-background.jpg');"
-  ></div>
-  <div class="container content text-center">
-    <img src="/assets/images/default-avatar.png"
-      class="rounded-circle mx-auto d-block img-fluid"
-    />
-    <h1 class="greeting">Hi, I am Jane Doe
-    </h1>
-    <div class="typing-carousel">
-      <span id="ityped" class="ityped"></span>
-      <span class="ityped-cursor"></span>
-    </div>
-    <ul id="typing-carousel-data">
-      
-    </ul>
-    <a href="#about"><i class="arrow bounce fa fa-chevron-down"></i></a>
-  </div>
-</div>
-<div class="container-fluid about bg-white anchor p-md-5 d-flex" id="about">
-  <div class="container">
-    <div class="row pt-sm-2 pt-md-4 align-self-center">
-      
-    </div>
-  </div>
-</div>
-<div class="container-fluid skills bg-dimmed anchor pb-5" id="skills">
-  
-</div>
-<div class="container-fluid experiences bg-white anchor" id="experiences">
-  
-</div>
-<div class="container-fluid projects bg-dimmed anchor pb-5" id="projects">
-  
-</div>
-<div class="container-fluid recent-posts bg-white anchor pb-5" id="recent-posts">
-  <h1 class="text-center">Recent Posts</h1>
-  <div class="container">
-    <div class="row" id="recent-post-cards">
-      
-        <div class="col-lg-4 col-md-6 pt-2">
-  <a href="/test/firstblog/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/assets/images/default-hero.jpg'
-          alt="Card image cap"
-        />
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Firstblog</h5>
-        <p class="card-text post-summery"> 基于JavaEE的网上商城——零食商城 Copyright: Copyright (c) 2020
-Created on 2020-5-1
-Author:zengxiaochao666@gmail.com
-Version 2.0
-项目描述 这是大三下学期的JavaEE作业，JavaWeb，做的一个商城，实现的功能有：  浏览主页商品、查看商品详情、下单商品、查看我的订单、注册用户等功能。 管理员查看商品列表、进行销量或售价或库存进行排序，进行商品上下架。  在线配置到了我的云服务器：  用户端：http://112.124.20.82:8080/market/index.jsp 管理员端：http://112.124.20.82:8080/market/admin.jsp
-在我的云服务器有效期内可以进行演示测试。  编译环境 Java:JDK1.8
-IDE:IDEA intellij
-数据库：Mysql5.7
-应用服务器：Tomcat8.5
-部署步骤  mysql新建名为market的数据库，使用项目内存放的sql文件进行表的生成和数据的加载。 使用IDEA打开项目主路径，配置tomcat即可。 更改dao包下的Connect_Db文件中的数据库连接串，localhost为本机、更改数据库、用户名、密码等本机验证。 若有缺包，mysql5.7的jar包在我项目的web-&gt;WEB-INF-&gt;lib中，若还缺包爆红，导入tomcat中的lib中的jar。  目录结构描述 ├── src // 后端
-│ ├── dao //dao层
-│ ├── entity // 实体类 │ └── servlet // servlet
-├── web // 前端
-│ ├── css //css
-│ ├── js // js │ └── image // 图片资源</p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">June 28, 2020</span>
-        <a href="/test/firstblog/" class="float-right btn btn-outline-info btn-sm">Read</a>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-    </div>
-  </div>
-</div>
-<div class="container-fluid achievements bg-dimmed anchor pb-5" id="achievements">
-  
-</div>
-<footer class="container-fluid text-center align-content-center footer pb-2">
-  <div class="container pt-5">
-    <div class="row text-left">
-      <div class="col-md-4 col-sm-12">
-        <h5>Navigation</h5>
+        .nav {
+            width: 960px;
+            height: 40px;
+            margin: 100px auto;
+            border: 1px solid #000;
+        }
         
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <h5>Contact Me</h5>
+        ul {
+            list-style: none;
+        }
+        
+        ul>li {
+            float: left;
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+        
+        .nav a {
+            display: block;
+            width: 120px;
+            height: 40px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: purple;
+        }
+        
+        .nav a:hover {
+            background-color: orangered;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
         <ul>
-          
+            <li><a href="">网站栏目</a></li>
+            <li><a href="">网站栏目</a></li>
+            <li><a href="">网站栏目</a></li>
+            <li><a href="">网站栏目</a></li>
+            <li><a href="">网站栏目</a></li>
+            <li><a href="">网站栏目</a></li>
+            <li><a href="">网站栏目</a></li>
+            <li><a href="">网站栏目</a></li>
         </ul>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        
-        <p>Stay up to date with email notification</p>
-        <form>
-          <div class="form-group">
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-            />
-            <small id="emailHelp" class="form-text text-muted"
-              >We'll never share your email with anyone else.</small
-            >
-          </div>
-          <button type="submit" class="btn btn-info">Submit</button>
-        </form>
-      </div>
     </div>
-  </div>
-  <hr />
-  <div class="container">
-    <div class="row text-left">
-      <div class="col-md-4">
-        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
-          <img src="/assets/images/logo-inverted.png">
-          Toha
-        </a>
-      </div>
-      <div class="col-md-4">© 2020 Copyright.</div>
-      <div class="col-md-4">
-        Powered by <a href="https://gohugo.io/">Hugo
-        <img
-          src="/assets/images/hugo-logo-wide.svg"
-          alt="Hugo Logo"
-          height="18"
-        />
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
+</body>
 
-    <script src="/assets/js/jquery-3.4.1.min.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-
-<script src="/assets/js/navbar.js"></script>
-<script src="/assets/js/jquery.filterizr.min.js"></script>
-
-
-    
-    <script src="/assets/js/itype.min.js"></script>
-    <script src="/assets/js/github-button.js"></script>
-    <script src="/assets/js/home.js"></script>
-  </body>
 </html>
