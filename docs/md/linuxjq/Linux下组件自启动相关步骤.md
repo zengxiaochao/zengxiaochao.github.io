@@ -8,7 +8,7 @@ vim /etc/rc.d/rc.local
 ```  
 2、添加相关组件启动命令以及所需的环境变量（如JAVA_HOME）
 ```
-export JAVA_HOME=/usr/java/jdk1.8.0_291-amd64  #必须得加上这个才行
+export JAVA_HOME=/usr/local/java/jdk1.8.0_241  #必须得加上这个才行
 
 #Redis
 ./opt/redis-3.2.9/src/redis-server /opt/redis-3.2.9/redis.conf
@@ -16,19 +16,11 @@ export JAVA_HOME=/usr/java/jdk1.8.0_291-amd64  #必须得加上这个才行
 #MyCat
 /opt/mycat/bin/mycat start
 
-#RocketMQ
-nohup /bin/sh /opt/alibaba-rocketmq/bin/mqnamesrv &
-nohup /bin/sh  /opt/alibaba-rocketmq/bin/mqbroker &
-
 # Tomcat
 /usr/local/tomcat/bin/startup.sh
 
 # MySQL
 systemctl start mysqld.service
-
-# Oracle
-su - oracle -c 'lsnrctl start'
-su - oracle -c 'dbstart'
 ```
 3、将rc.local修改为可执行
 ```
