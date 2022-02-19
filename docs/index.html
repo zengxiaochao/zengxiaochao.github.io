@@ -9,6 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
     <link rel="shortcut icon" href="picture//icon.png">
+    <!-- 目录折叠 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
 </head>
 
 <body>
@@ -17,7 +20,19 @@
         window.$docsify = {
             coverpage: false, //首页
             name: '',
-            repo: ''
+            repo: '',
+            loadSidebar: true,// 加载侧边栏
+            subMaxLevel: 9,
+            loadNavbar: true, // 加载导航栏
+            search: {
+                noData: {
+                    '/': '没有结果!'
+                },
+                paths: 'auto',
+                placeholder: {
+                    '/': '搜索'
+                }
+            }
         }
     </script>
     <!-- Docsify v4 -->
