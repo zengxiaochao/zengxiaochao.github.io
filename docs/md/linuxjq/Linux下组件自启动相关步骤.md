@@ -1,4 +1,4 @@
-## Linux下组件自启动相关步骤
+# Linux下组件自启动相关步骤
 
 > 注意：如果出现组件未成功启动的情况，使用`cat /var/log/messages|grep rc.local`查看相关日志
 
