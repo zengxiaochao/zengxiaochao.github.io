@@ -38,4 +38,5 @@ IdentityFile ~/.ssh/github_id_rsa
 推送时遇到密码登录不对，从github获取新的`token`当做密码登录
 ![](../../picture/2022-01-21-19-22-04.png)
 ![](../../picture/2022-01-21-19-22-32.png)
+![](../../picture/2022-02-21-01-27-36.png)
 ![](../../picture/2022-01-21-19-22-55.png)
