@@ -1,8 +1,9 @@
-# Linux下安装部署MySQL
-## 一、下载并安装MySQL服务
+# MYSQL相关
+## Linux下安装部署MySQL
+### 一、下载并安装MySQL服务
 1. 下载
 ```
-wget -i -c http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
+wget http://repo.mysql.com/mysql57-community-release-el7-10.noarch.rpm
 ```
 2. 安装
 ```
@@ -12,7 +13,7 @@ yum -y install mysql57-community-release-el7-10.noarch.rpm
 ```
 yum -y install mysql-community-server
 ```
-## 二、数据库服务配置
+### 二、数据库服务配置
 1. 服务相关命令
 ```
 # 启动服务
@@ -39,7 +40,7 @@ ALTER USER 'root'@'%' IDENTIFIED BY 'new password';
 flush privileges;
 systemctl restart mysqld
 ```
-## 三、开放防火墙端口（如果你的机器是云服务器，需要在服务商控制台安全组开放3306端口）  
+### 三、开放防火墙端口（如果你的机器是云服务器，需要在服务商控制台安全组开放3306端口）  
 1. 若你的机器连接不上这台服务器，查看一下防火墙状态，直接关掉防火墙也行，开放3306端口也行
 ```
 # 查看防火墙状态
@@ -55,3 +56,5 @@ firewall-cmd --zone=public --add-port=3306/tcp --permanent
 # 关闭指定端口
 firewall-cmd --zone=public --remove-port=3306/tcp --permanent
 ```
+
+# Windows下安装部署MySQL

@@ -1,0 +1,21 @@
+# Maven相关
+## `setting.xml`配置阿里云加速
+```
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <mirrors>
+
+        <mirror>
+            <id>nexus-aliyun</id>
+            <name>nexus-aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+
+
+</settings>
+```
