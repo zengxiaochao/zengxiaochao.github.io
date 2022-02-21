@@ -5,6 +5,7 @@
 * 环境搭建
     * [Git相关](md/hjdj/Git相关.md)
     * [Jdk相关](md/hjdj/Jdk相关.md)
+    * [Tomcat相关](md/hjdj/Tomcat相关.md)
     * [Node相关](md/hjdj/Node相关.md)
     * [Maven相关](md/hjdj/Maven相关.md)
     * [MySQL相关](md/hjdj/MYSQL相关.md)
@@ -12,6 +13,7 @@
     * [IDE常用插件](md/kfjq/插件相关.md)
     * [常用快捷键](md/kfjq/常用快捷键.md)
 * 项目实践
+    * [旅游管理系统](md/xmsj/旅游管理系统.md)
     * [零食商城](md/xmsj/零食商城.md)
     * [图书管理系统](md/xmsj/图书管理系统.md)
     * [校园二手交易市场](md/xmsj/校园二手交易市场.md)
