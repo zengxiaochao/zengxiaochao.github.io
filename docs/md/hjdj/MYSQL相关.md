@@ -13,6 +13,8 @@ yum -y install mysql57-community-release-el7-10.noarch.rpm
 ```
 yum -y install mysql-community-server
 ```
+
+
 ### 二、数据库服务配置
 1. 服务相关命令
 ```
@@ -40,6 +42,8 @@ ALTER USER 'root'@'%' IDENTIFIED BY 'new password';
 flush privileges;
 systemctl restart mysqld
 ```
+
+
 ### 三、开放防火墙端口（如果你的机器是云服务器，需要在服务商控制台安全组开放3306端口）  
 1. 若你的机器连接不上这台服务器，查看一下防火墙状态，直接关掉防火墙也行，开放3306端口也行
 ```

@@ -9,11 +9,15 @@
     * [Node相关](md/hjdj/Node相关.md)
     * [Maven相关](md/hjdj/Maven相关.md)
     * [MySQL相关](md/hjdj/MYSQL相关.md)
+    * [SQLServer相关](md/hjdj/SQLServer相关.md)
+    * [Docker相关](md/hjdj/Docker相关.md)
+    * [Xshell相关](https://51.ruyo.net/test/download_xshell_xftp.html)
 * 开发技巧
     * [IDE常用插件](md/kfjq/插件相关.md)
     * [常用快捷键](md/kfjq/常用快捷键.md)
 * 项目实践
     * [旅游管理系统](md/xmsj/旅游管理系统.md)
+    * [美容院管理系统](md/xmsj/美容院管理系统.md)
     * [零食商城](md/xmsj/零食商城.md)
     * [图书管理系统](md/xmsj/图书管理系统.md)
     * [校园二手交易市场](md/xmsj/校园二手交易市场.md)

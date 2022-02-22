@@ -29,6 +29,8 @@ source /etc/profile
 java -version
 javac
 ```
+
+
 ## Windows下安装配置JDK
 1. 下载安装包运行安装，自行选择安装路径
 2. 配置环境变量`JAVA_HOME`,选择安装Java的路径
