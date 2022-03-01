@@ -1,7 +1,25 @@
 * [首页](README.md)
-* Linux技巧
-    * [CentOs7最小化安装没有ifconfig](md/linuxjq/CentOs7最小化安装没有ifconfig.md)
-    * [Linux服务开机启动](md/linuxjq/Linux下组件自启动相关步骤.md)
+* 装机必备
+    * [TIM](https://office.qq.com/download.html)
+    * [网易云](https://music.163.com/#/download)
+    * [浏览器](https://www.centbrowser.com/)
+    * [IDM]()
+    * [Office]()
+    * [7-Zip]()
+    * [Navicat]()
+    * [RedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager/)
+    * [VsCode]()
+    * [PostMan]()
+    * [Everything]()
+    * [VsCode]()
+    * [IntelliJ IDEA]()
+    * [v2rayN]()
+    * [UninstallTool]()
+* 虚拟系统
+    * [VmWare]()
+    * [Xshell](https://51.ruyo.net/test/download_xshell_xftp.html)
+    * [CentOs7 mini镜像]()
+    * [Win10下载]()
 * 环境搭建
     * [Git相关](md/hjdj/Git相关.md)
     * [Jdk相关](md/hjdj/Jdk相关.md)
@@ -11,13 +29,22 @@
     * [MySQL相关](md/hjdj/MYSQL相关.md)
     * [SQLServer相关](md/hjdj/SQLServer相关.md)
     * [Docker相关](md/hjdj/Docker相关.md)
-    * [Xshell相关](https://51.ruyo.net/test/download_xshell_xftp.html)
+    * [Redis相关]()
+* 收藏书签
+    * [常用导航](https://adzhp.cn/)
+    * [软件集合](https://mp.weixin.qq.com/s/EWuGMCfj6EIosvzjdWh9Fw)
 * 开发技巧
     * [IDE常用插件](md/kfjq/插件相关.md)
     * [常用快捷键](md/kfjq/常用快捷键.md)
+* Linux技巧
+    * [CentOs7最小化安装没有ifconfig](md/linuxjq/CentOs7最小化安装没有ifconfig.md)
+    * [Linux服务开机启动](md/linuxjq/Linux下组件自启动相关步骤.md)
+    * [Linux安装GPG Keys are configured as](https://cloud.tencent.com/developer/article/1940459)
 * 项目实践
     * [旅游管理系统](md/xmsj/旅游管理系统.md)
     * [美容院管理系统](md/xmsj/美容院管理系统.md)
     * [校园二手交易市场](md/xmsj/校园二手交易市场.md)
     * [零食商城](md/xmsj/零食商城.md)
+    * [图书管理系统](md/xmsj/图书管理系统.md)
+    * [图书管理系统](md/xmsj/图书管理系统.md)
     * [图书管理系统](md/xmsj/图书管理系统.md)

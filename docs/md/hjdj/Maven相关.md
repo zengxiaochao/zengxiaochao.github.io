@@ -1,5 +1,5 @@
 # Maven相关
-## `setting.xml`配置阿里云加速
+## 一、`setting.xml`配置阿里云加速
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -19,3 +19,5 @@
 
 </settings>
 ```
+## 二、`dependency`库
+[![](2022-03-01-22-36-30.png)](https://mvnrepository.com/)
