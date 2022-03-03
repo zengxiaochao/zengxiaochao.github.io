@@ -30,16 +30,22 @@
     * [SQLServer相关](md/hjdj/SQLServer相关.md)
     * [Docker相关](md/hjdj/Docker相关.md)
     * [Redis相关]()
+    * [Nginx相关]()
 * 收藏书签
     * [常用导航](https://adzhp.cn/)
     * [软件集合](https://mp.weixin.qq.com/s/EWuGMCfj6EIosvzjdWh9Fw)
 * 开发技巧
     * [IDE常用插件](md/kfjq/插件相关.md)
     * [常用快捷键](md/kfjq/常用快捷键.md)
+* 通用代码
+    * [SpringBoot通用配置]()
+    * [SSM通用配置]()
+    * [Swagger通用配置]()
 * Linux技巧
     * [CentOs7最小化安装没有ifconfig](md/linuxjq/CentOs7最小化安装没有ifconfig.md)
     * [Linux服务开机启动](md/linuxjq/Linux下组件自启动相关步骤.md)
     * [Linux安装GPG Keys are configured as](https://cloud.tencent.com/developer/article/1940459)
+    * [Linux防火墙]()
 * 项目实践
     * [旅游管理系统](md/xmsj/旅游管理系统.md)
     * [美容院管理系统](md/xmsj/美容院管理系统.md)
