@@ -1,4 +1,4 @@
-# CentOs7最小化安装没有ifconfig
+## 配置IP
 1. 查看网卡（首先你的机器要有连接网线，用网线连接路由器和服务器，虚拟机则不用进行特殊处理）
 ```
 ip addr
@@ -24,13 +24,25 @@ DNS1=192.168.1.1　　 #DNS 配置
 ```
 3. 重启网络服务
 ```
-servicer network restart
+service network restart
 ```
 4. DHCP状态下查看网关地址：
 ```
-netstat -rn
-route -n
 ip route show
+```
+
+## 安装相关组件
+1. 查找相关组件
+```
+yum search ifconfig
+```
+2. 安装
+```
+yum install net-tools.x86_64
+```
+3. 测试
+```
+ifconfig
 ```
 
 
