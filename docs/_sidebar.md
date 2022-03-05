@@ -38,8 +38,9 @@
     * [IDE常用插件](md/开发技巧/插件相关.md)
     * [常用快捷键](md/开发技巧/常用快捷键.md)
 * 通用代码
-    * [SpringBoot通用配置]()
+    * [MySql连接测试](md/通用代码/MySql连接测试.md)
     * [SSM通用配置]()
+    * [SpringBoot通用配置]()
     * [Swagger通用配置]()
 * Linux技巧
     * [防火墙操作](md/Linux技巧/防火墙操作.md)
