@@ -13,7 +13,6 @@ $!callback.setSavePath($tool.append($tableInfo.savePath, "/dao"))
 
 import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};
 import org.apache.ibatis.annotations.Param;
-import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 /**
@@ -38,15 +37,6 @@ public interface $!{tableName} {
      * @return 实例对象
      */
     $!{tableInfo.name} queryById($!pk.shortType $!pk.name);
-
-    /**
-     * 查询指定行数据
-     *
-     * @param $!tool.firstLowerCase($!{tableInfo.name}) 查询条件
-     * @param pageable         分页对象
-     * @return 对象列表
-     */
-    List<$!{tableInfo.name}> queryAllByLimit($!{tableInfo.name} $!tool.firstLowerCase($!{tableInfo.name}), @Param("pageable") Pageable pageable);
 
     /**
      * 统计总行数

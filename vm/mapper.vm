@@ -37,22 +37,6 @@ $!callback.setSavePath($tool.append($modulePath, "/src/main/resources/mapper"))
         where $!pk.obj.name = #{$!pk.name}
     </select>
 
-    <!--查询指定行数据-->
-    <select id="queryAllByLimit" resultMap="$!{tableInfo.name}Map">
-        select
-          #allSqlColumn()
-
-        from $!tableInfo.obj.name
-        <where>
-#foreach($column in $tableInfo.fullColumn)
-            <if test="$!column.name != null#if($column.type.equals("java.lang.String")) and $!column.name != ''#end">
-                and $!column.obj.name = #{$!column.name}
-            </if>
-#end
-        </where>
-        limit #{pageable.offset}, #{pageable.pageSize}
-    </select>
-
     <!--统计总行数-->
     <select id="count" resultType="java.lang.Long">
         select count(1)

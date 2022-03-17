@@ -12,10 +12,9 @@ $!callback.setSavePath($tool.append($tableInfo.savePath, "/controller"))
 
 import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};
 import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;
-import com.example.demo.entity.Result;
+import $!{tableInfo.savePackageName}.entity.Result;
 import org.springframework.web.bind.annotation.*;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
+
 
 import javax.annotation.Resource;
 
@@ -27,7 +26,6 @@ import javax.annotation.Resource;
  */
 @RestController
 @RequestMapping("$!tool.firstLowerCase($tableInfo.name)")
-@Api(tags = "$!{tableInfo.comment}接口")
 public class $!{tableName} {
     /**
      * 服务对象
@@ -41,7 +39,6 @@ public class $!{tableName} {
      * @param pageNum 页码
      * @return 查询结果
      */
-    @ApiOperation(value="分页查询接口")
     @GetMapping("page/{pageNum}")
     public Result queryByPage(@PathVariable("pageNum") Integer pageNum) {
         return new Result().success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.queryByPage(pageNum));
@@ -53,7 +50,6 @@ public class $!{tableName} {
      * @param id 主键
      * @return 单条数据
      */
-    @ApiOperation(value="通过主键查询单条数据接口")
     @GetMapping("{id}")
     public Result queryById(@PathVariable("id") $!pk.shortType id) {
         return new Result().success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.queryById(id));
@@ -65,7 +61,6 @@ public class $!{tableName} {
      * @param $!{tool.firstLowerCase($tableInfo.name)} 实体
      * @return 新增结果
      */
-    @ApiOperation(value="新增数据接口")
     @PostMapping("add")
     public Result add($!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}) {
         return new Result().success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.insert($!{tool.firstLowerCase($tableInfo.name)}));
@@ -77,7 +72,6 @@ public class $!{tableName} {
      * @param $!{tool.firstLowerCase($tableInfo.name)} 实体
      * @return 编辑结果
      */
-    @ApiOperation(value="编辑数据接口")
     @PostMapping("edit")
     public Result edit($!{tableInfo.name} $!{tool.firstLowerCase($tableInfo.name)}) {
         return new Result().success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.update($!{tool.firstLowerCase($tableInfo.name)}));
@@ -89,7 +83,6 @@ public class $!{tableName} {
      * @param id 主键
      * @return 删除是否成功
      */
-    @ApiOperation(value="删除数据接口")
     @PostMapping("deleteById")
     public Result deleteById($!pk.shortType id) {
         return new Result().success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.deleteById(id));
