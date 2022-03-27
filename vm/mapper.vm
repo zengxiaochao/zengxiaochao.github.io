@@ -25,7 +25,7 @@ $!callback.setSavePath($tool.append($modulePath, "/src/main/resources/mapper"))
         select
           #allSqlColumn()
 
-        from $!tableInfo.obj.name
+        from $!tableInfo.obj.name where deleted='0'
     </select>
 
     <!--查询单个-->
@@ -34,7 +34,7 @@ $!callback.setSavePath($tool.append($modulePath, "/src/main/resources/mapper"))
           #allSqlColumn()
 
         from $!tableInfo.obj.name
-        where $!pk.obj.name = #{$!pk.name}
+        where $!pk.obj.name = #{$!pk.name} and deleted='0'
     </select>
 
     <!--统计总行数-->
@@ -47,6 +47,7 @@ $!callback.setSavePath($tool.append($modulePath, "/src/main/resources/mapper"))
                 and $!column.obj.name = #{$!column.name}
             </if>
 #end
+            and deleted='0'
         </where>
     </select>
 

@@ -14,8 +14,8 @@ import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};
 import $!{tableInfo.savePackageName}.service.$!{tableInfo.name}Service;
 import $!{tableInfo.savePackageName}.entity.Result;
 import org.springframework.web.bind.annotation.*;
-
-
+import org.apache.ibatis.annotations.Param;
+import java.util.HashMap;
 import javax.annotation.Resource;
 
 /**
@@ -39,9 +39,19 @@ public class $!{tableName} {
      * @param pageNum 页码
      * @return 查询结果
      */
-    @GetMapping("page/{pageNum}")
-    public Result queryByPage(@PathVariable("pageNum") Integer pageNum) {
-        return new Result().success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.queryByPage(pageNum));
+    @PostMapping("page/{pageNum}")
+    public Result queryByPage(@PathVariable("pageNum") Integer pageNum, @RequestBody HashMap param) {
+        Integer pageSize = (Integer) param.get("pageSize");
+        return new Result().success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.queryByPage(pageNum,pageSize));
+    }
+     /**
+     * 不分页查询全部
+     *
+     * @return 查询结果
+     */
+    @GetMapping("queryAll")
+    public Result queryAll() {
+        return new Result().success(this.$!{tool.firstLowerCase($tableInfo.name)}Service.queryAll());
     }
 
     /**

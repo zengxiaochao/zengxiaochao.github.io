@@ -12,6 +12,6 @@
 ***[SpringBoot基础开发框架——Gitee](https://gitee.com/zengxiaochao/springboot-base-system)***  
 ***[Vue基础开发框架——Gitee](https://gitee.com/zengxiaochao/vue-base-system)***  
 
-# 万能商城开源仓库
+<!-- # 万能商城开源仓库
 ***[万能商城后端SpringBoot——Gitee](https://gitee.com/zengxiaochao/mall-springboot-back)***  
-***[万能商城前端SpringBoot——Gitee](https://gitee.com/zengxiaochao/mall-vue-front)***  
+***[万能商城前端SpringBoot——Gitee](https://gitee.com/zengxiaochao/mall-vue-front)***   -->
