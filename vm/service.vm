@@ -13,7 +13,7 @@ $!callback.setSavePath($tool.append($tableInfo.savePath, "/service"))
 
 import $!{tableInfo.savePackageName}.entity.$!{tableInfo.name};
 import com.github.pagehelper.PageInfo;
-
+import java.util.List;
 
 /**
  * $!{tableInfo.comment}($!{tableInfo.name})表服务接口
@@ -37,7 +37,17 @@ public interface $!{tableName} {
      * @param pageNum 页码
      * @return 查询结果
      */
-    PageInfo<$!{tableInfo.name}> queryByPage(Integer pageNum);
+    PageInfo<$!{tableInfo.name}> queryByPage(Integer pageNum,Integer pageSize);
+
+
+
+    /**
+     * 不分页查询全部
+     *
+     * @return 查询结果
+     */
+    List<$!{tableInfo.name}> queryAll();
+
 
     /**
      * 新增数据

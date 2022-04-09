@@ -50,13 +50,23 @@ public class $!{tableName} implements $!{tableInfo.name}Service {
      * @return 查询结果
      */
     @Override
-    public PageInfo<$!{tableInfo.name}> queryByPage(Integer pageNum) {
-        PageHelper.startPage(pageNum,10);//页码 页的大小
+    public PageInfo<$!{tableInfo.name}> queryByPage(Integer pageNum,Integer pageSize) {
+        PageHelper.startPage(pageNum,pageSize);//页码 页的大小
         List<$!{tableInfo.name}> pagelist = this.$!{tool.firstLowerCase($tableInfo.name)}Dao.queryAll();//数据查找
         PageInfo<$!{tableInfo.name}> pageInfo = new PageInfo<>(pagelist);
         return pageInfo;
     }
 
+    /**
+     * 不分页查询全部
+     *
+     * @return 查询结果
+     */
+    @Override
+    public List<$!{tableInfo.name}> queryAll() {
+        return this.$!{tool.firstLowerCase($tableInfo.name)}Dao.queryAll();
+    }
+    
     /**
      * 新增数据
      *
