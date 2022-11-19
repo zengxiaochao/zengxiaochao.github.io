@@ -26,6 +26,7 @@
     * [Node相关](md/环境搭建/Node相关.md)
     * [Maven相关](md/环境搭建/Maven相关.md)
     * [MySQL相关](md/环境搭建/MYSQL相关.md)
+    * [Redis相关](md/环境搭建/Redis相关.md)
     * [SQLServer相关](md/环境搭建/SQLServer相关.md)
     * [Docker相关](md/环境搭建/Docker相关.md)
     * [Redis相关](md/环境搭建/Redis相关.md)

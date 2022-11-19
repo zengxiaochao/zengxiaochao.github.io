@@ -1,5 +1,5 @@
 # MYSQL相关
-## Linux下安装部署MySQL
+## yiLinux下安装部署MySQL
 ### 一、下载并安装MySQL服务
 1. 下载
 ```
@@ -36,6 +36,17 @@ mysql -u root -p
 4. 修改密码
 ```
 ALTER USER 'root'@'%' IDENTIFIED BY 'new password';
+```
+或者
+```
+use mysql;
+ALTER USER USER() IDENTIFIED BY 'new password';
+update user set host = '%' where user = 'root';
+```
+如果出现密码强度校验
+```
+set global validate_password_policy=LOW;
+set global validate_password_length=9;
 ```
 5. 刷新重启数据库服务
 ```
