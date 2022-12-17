@@ -1,4 +1,4 @@
-1. 查看防火状态
+\1. 查看防火状态
 ```
 systemctl status firewalld
 ```

@@ -1,4 +1,4 @@
-## 一、使用Docker安装Redis
+## 一、使用Docker部署Redis
 
 1. 查找Redis镜像
 
