@@ -1,4 +1,4 @@
-```
+```java
 import java.sql.*;
  
 public class mysqlUtils {

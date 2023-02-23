@@ -1,8 +1,8 @@
-# Git相关配置
-## Linux下安装部署MySQL
+## 一、Linux下安装部署MySQL
 
-## Windows下安装部署MySQL
+## 二、Windows下安装部署MySQL
 1. 秘钥配置
+
 ```
 # 清除之前的用户邮箱配置
 git config --global --unset user.name "YourName"
@@ -20,6 +20,7 @@ ssh-keygen -t rsa -C "YourGiteeEmail@mail.com" -f "gitee_id_rsa"
 ![](../../picture/2022-01-21-18-46-57.png)
 2. 用户配置
 在`~/.ssh`文件夹下新建`config`文件，添加以下内容
+
 ```
 # gitee
 Host gitee.com

@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 日期时间工具类
  */
-public class DateUtils {
+public class DateTimeUtils {
 
     public static final String TIME_WITH_MINUTE_PATTERN = "HH:mm";
 
