@@ -42,16 +42,16 @@
     * [常用导航](https://adzhp.cn/)
     * [软件集合](https://mp.weixin.qq.com/s/EWuGMCfj6EIosvzjdWh9Fw)
 * 开发技巧
-    * [常用插件](md/开发技巧/插件相关.md)
-    * [Oracle技巧](md/开发技巧/Oracle技巧.md)
+    * [常用插件](md/开发技巧/IDE插件相关.md)
+    * [Oracle技巧](md/开发技巧/SQL-Oracle技巧.md)
     * [Redis技巧](md/开发技巧/Redis技巧.md)
-    <!-- * [常用快捷键](md/开发技巧/常用快捷键.md) -->
+    * [常用快捷键](md/开发技巧/IDE常用快捷键.md)
     * [Linux技巧](https://git.io/linux)
     * [Linux防火墙操作](md/开发技巧/Linux防火墙操作.md)
     * [Linux查询端口占用](md/开发技巧/Linux查询端口占用.md)
-    * [CentOs7最小化安装配置网络](md/开发技巧/CentOs7最小化安装配置网络.md)
-    * [CentOs7配置静态IP](md/开发技巧/CentOs7配置静态IP.md)
-    <!-- * [服务开机自启动](md/Linux技巧/服务开机自启动.md) -->
+    * [CentOs7最小化安装配置网络](md/开发技巧/Linux最小化安装配置网络.md)
+    * [CentOs7配置静态IP](md/开发技巧/Linux配置静态IP.md)
+    * [服务开机自启动](md/Linux技巧/服务开机自启动.md)
     * [安装程序异常【GPG Keys are configured as】](https://cloud.tencent.com/developer/article/1940459)
 * 通用代码
     * Java常用代码
