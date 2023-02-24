@@ -1,7 +1,7 @@
 - 清空表数据
 
 ```sql
-truncate table T_SYS_USER
+truncate table T_FILE_NAME
 ```
 
 - 新建数据库
@@ -14,7 +14,7 @@ create user US_WEBPRO identified by "123456"
 select username,default_tablespace from dba_users where username='US_WEBPRO';  
 
 --创建新表空间
-create tablespace TSP_WEBPRO datafile '/xx/app/oracle/product/11.2.0/xx/dbs/TSP_WEBPRO.dbf'size 30720M;  
+create tablespace TSP_WEBPRO datafile '/usr/dbfile/TSP_WEBPRO.dbf'size 30720M;  
 
 --更换新用户表空间
 Alter user US_WEBPRO default tablespace TSP_WEBPRO;    
