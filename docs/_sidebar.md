@@ -56,6 +56,7 @@
     * [安装程序异常【GPG Keys are configured as】](https://cloud.tencent.com/developer/article/1940459)
 * 通用代码
     * Java常用代码
+        * [常量类](md/通用代码/常用Java/常量类.md)
         * [MySQL连接测试](md/通用代码/常用Java/MySql连接测试.md)
         * [SQLServer连接测试](md/通用代码/常用Java/SQLServer连接测试.md)
         * [BigDecimalUtils](md/通用代码/常用Java/BigDecimalUtils.md)
@@ -88,11 +89,10 @@
     * [Kali常用命令](md/渗透实例/常用命令.md)
     * [Kali无线网渗透](md/渗透实例/无线网渗透.md)
     * [Kali局域网渗透](md/渗透实例/局域网渗透MSF.md)
-
 * 项目实践
     * [基础服务](md/项目实践/基础服务.md)
     * [销售管理系统](md/项目实践/销售管理系统.md)
-    * [电话号码管理系统](md/项目实践/电话号码管理系统.md) -->
+    * [电话号码管理系统](md/项目实践/电话号码管理系统.md)
     * [旅游管理系统](md/项目实践/旅游管理系统.md)
     * [美容院管理系统](md/项目实践/美容院管理系统.md)
     * [校园二手交易市场](md/项目实践/校园二手交易市场.md)
